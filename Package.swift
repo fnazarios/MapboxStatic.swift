@@ -16,7 +16,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/raphaelmor/Polyline.git", from: "5.0.2"),
+        .package(url: "https://github.com/fnazarios/Polyline.git", branch: "master"),
         .package(name: "OHHTTPStubs", url: "https://github.com/AliSoftware/OHHTTPStubs.git", from: "9.0.0"),
     ],
     targets: [
